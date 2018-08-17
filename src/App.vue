@@ -8,7 +8,7 @@
       app
     >
       <v-list>
-        <v-list-tile 
+        <v-list-tile
           value="true"
           v-for="(item, i) in items"
           :key="i"
@@ -45,7 +45,7 @@
           <v-layout column align-center>
             <img src="/public/v.png" alt="Vuetify.js" class="mb-5" />
             <blockquote>
-              &#8220;First, solve the problem. Then, write the code.&#8221;
+              &#8220;Write the code.&#8221;
               <footer>
                 <small>
                   <em>&mdash;John Johnson</em>
